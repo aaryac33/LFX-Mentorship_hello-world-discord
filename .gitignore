@@ -1,0 +1,18 @@
+# .gitignore
+
+# Ignore target directory created by Cargo
+/target/
+
+# Ignore compiled binary files
+*.rs.bk
+
+# Ignore editor-specific files
+.vscode/
+.idea/
+
+# Ignore system-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore environment files containing secrets or tokens
+.env
