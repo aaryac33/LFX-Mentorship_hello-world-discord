@@ -1,0 +1,10 @@
+[package]
+name = "hello-world-discord"
+version = "0.1.0"
+edition = "2018"
+
+[dependencies]
+serenity = "0.10.7"
+tokio = { version = "1", features = ["full"] }
+anyhow = "1.0.41"
+
